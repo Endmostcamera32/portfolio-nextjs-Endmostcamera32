@@ -29,13 +29,13 @@ const property = () => {
           <p>
           Rooty is a freelance mobile marketplace for BCIT students to offer their interdisciplinary skillset to each other. The app is designed and developed by Full-Stack Web developers in collaboration with D3. Rooty provides BCIT students with a safe space to make extra income, barter for each other’s services, gain experience, and network within BCIT community.
           </p>
-          {/* <a
-            href='https://github.com/fireclint/property-finder'
+          <a
+            href='https://github.com/BCIT-Rooty/rootyBCIT'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a> */}
+          </a>
           <a
             href='https://rooty-bcit-iota.vercel.app/'
             target='_blank'
