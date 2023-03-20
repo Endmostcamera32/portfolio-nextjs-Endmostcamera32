@@ -36,13 +36,13 @@ const Projects = () => {
             tech='Next.js'
 
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Code Snippets'
             backgroundImg={twitchImg}
             projectUrl='/codeSnip'
             tech='Next JS'
 
-          />
+          /> */}
         </div>
       </div>
     </div>
