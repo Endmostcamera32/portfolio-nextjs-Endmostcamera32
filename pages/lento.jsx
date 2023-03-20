@@ -27,8 +27,8 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          As the developer of our Express.js, EJS, CSS, and ES6-powered dating app, I'm excited to introduce you to our platform. Our app is designed to help you find meaningful connections with like-minded people, using cutting-edge technology and intuitive user interfaces.
-          Our user interface is sleek, modern, and easy to use, making it simple to navigate through potential matches and initiate conversations with other users. We've also incorporated advanced security features to keep your data safe and secure, so you can focus on finding the perfect match without worrying about privacy concerns.
+          As the developer of our Express.js, EJS, CSS, and ES6-powered dating app, I&apos;m excited to introduce you to our platform. Our app is designed to help you find meaningful connections with like-minded people, using cutting-edge technology and intuitive user interfaces.
+          Our user interface is sleek, modern, and easy to use, making it simple to navigate through potential matches and initiate conversations with other users. We&apos;ve also incorporated advanced security features to keep your data safe and secure, so you can focus on finding the perfect match without worrying about privacy concerns.
           </p>
           <a
             href='https://github.com/Endmostcamera32/Lento_Online_dating_App'
