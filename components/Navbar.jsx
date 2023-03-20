@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/LogoNav2.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -60,8 +60,8 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
-              height='50'
+              width='75'
+              height='75'
               className='cursor-pointer'
             />
           </a>
@@ -80,9 +80,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
-            </li>
+            </li> */}
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
             </li>
