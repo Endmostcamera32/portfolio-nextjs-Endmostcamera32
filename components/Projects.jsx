@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import propertyImg from '../public/assets/projects/Rooty.png';
+import cryptoImg from '../public/assets/projects/Lento.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -17,16 +17,16 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Rooty'
             backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            projectUrl='/rooty'
+            tech='Next.js'
           />
           <ProjectItem
-            title='Crypto App'
+            title='Lento Dating'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            projectUrl='/lento'
+            tech='Express.js with Ejs pages'
 
           />
           <ProjectItem
