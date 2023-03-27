@@ -34,7 +34,7 @@ const twitch = () => {
             snippets to find solutions to common programming problems.
           </p>
           <p>
-            The app's interface is simple and intuitive, making it easy for
+            The app&apos;s interface is simple and intuitive, making it easy for
             users to upload and manage their code snippets. Users can add tags
             and descriptions to their code snippets, making them more searchable
             and accessible to others. Additionally, users can save snippets that
@@ -50,7 +50,7 @@ const twitch = () => {
             concepts and techniques.
           </p>
           <p>
-            Whether you're a beginner looking for examples of how to implement
+            Whether you&apos;re a beginner looking for examples of how to implement
             certain programming features or an experienced developer looking to
             share your code with others, Code Snippets is the perfect app to
             help you achieve your goals.
