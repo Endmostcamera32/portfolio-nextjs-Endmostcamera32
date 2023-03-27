@@ -4,7 +4,7 @@ import React from 'react';
 import propertyImg from '../public/assets/projects/Rooty.png';
 import cryptoImg from '../public/assets/projects/Lento.png'
 import netflixImg from '../public/assets/projects/VIO.png'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import snip from '../public/assets/projects/snip2.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -36,13 +36,13 @@ const Projects = () => {
             tech='Next.js'
 
           />
-          {/* <ProjectItem
+          <ProjectItem
             title='Code Snippets'
-            backgroundImg={twitchImg}
+            backgroundImg={snip}
             projectUrl='/codeSnip'
             tech='Next JS'
 
-          /> */}
+          />
         </div>
       </div>
     </div>
