@@ -28,7 +28,7 @@ const property = () => {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2>Overview:</h2>
           <p>
             Rooty is a freelance mobile marketplace for BCIT students to offer
             their interdisciplinary skillset to each other. The app is designed
@@ -37,6 +37,61 @@ const property = () => {
             barter for each other’s services, gain experience, and network
             within BCIT community.
           </p>
+          <h2 className="mt-16 mb-3">Problems and Solutions</h2>
+          <h4>Cheating:</h4>
+          <p>
+            Rooty aimed to provide a fair and equal opportunity for students to
+            exchange their skillsets. However, the platform faced the challenge
+            of preventing students from exploiting the platform for cheating
+            purposes, such as purchasing assignments or hiring someone to
+            complete coursework for them. This not only undermined the integrity
+            of the platform but also affected the educational experience of
+            honest students.
+          </p>
+          <h4>Cheating Prevention:</h4>
+          <p className="mb-16">
+            To prevent cheating, the platform implemented a robust verification
+            process that includes identity verification and academic background
+            checks. The process helps to ensure that only eligible students can
+            use the platform and reduces the likelihood of cheating. Moreover, a
+            reporting mechanism was also introduced to enable students to report
+            any suspected cheating activities. The platform's moderation team
+            regularly reviews these reports and takes appropriate action, such
+            as suspending the user's account, to maintain the integrity of the
+            platform.
+          </p>
+          <h4>Privacy Concerns:</h4>
+          <p >
+            As a marketplace for exchanging skillsets, Rooty dealt with
+            sensitive information, such as students' personal and academic data.
+            Ensuring the privacy and security of this information was a
+            significant challenge as any data breach or misuse of information
+            could harm the reputation of the platform and its users.
+          </p>
+          <h4>To ensure the privacy</h4>
+          <p className="mb-5">
+            Data Encryption: All sensitive data, such as personal and academic
+            information, is encrypted before it is stored on the platform. This
+            ensures that the data is secure and cannot be accessed by
+            unauthorized parties.
+          </p>
+          <p className="mb-5">
+            Access Control: The platform implements strict access controls to
+            ensure that only authorized parties can access sensitive
+            information. For example, personal information is only visible to
+            the owner of the account and other users who have been granted
+            permission by the owner.
+          </p>
+          <p className="mb-5">
+            Data Retention Policy: The platform has a clear and concise data
+            retention policy that outlines the length of time data is stored and
+            the conditions under which it is deleted. This helps to ensure that
+            sensitive information is not retained for longer than necessary.
+          </p>
+        <Link href="http://portfolio.renatadzotova.ca/Rooty/">
+          <p className="underline cursor-pointer">For additional information you can go to my friend&#39;s website</p>
+        </Link>
+
           <a
             href="https://github.com/BCIT-Rooty/rootyBCIT"
             target="_blank"
@@ -77,12 +132,17 @@ const property = () => {
             </div>
           </div>
         </div>
+
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
+      
       <div className="w-screen flex justify-center items-center">
-        <ReactPlayer url="https://www.youtube.com/watch?v=3ycRPYrkLTA" controls={true}/>
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=3ycRPYrkLTA"
+          controls={true}
+        />
       </div>
     </div>
   );
