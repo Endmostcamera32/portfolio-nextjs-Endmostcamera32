@@ -21,7 +21,7 @@ const Main = () => {
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I am a skilled Full-Stack Web Developer with knowledge of both front-end and back-end technologies, ready to develop dynamic and responsive websites that enhance user experience and meet business objectives
           </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+          <div className='flex items-center justify-evenly max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/sohrab-radmehr/'
               target='_blank'
@@ -40,12 +40,12 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
+            {/* <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            </Link>
-            {/* <Link href='/resume'>
+            </Link> 
+             <Link href='/resume'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>

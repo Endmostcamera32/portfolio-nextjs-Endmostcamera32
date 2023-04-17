@@ -9,7 +9,7 @@ const resume = () => {
         <title>Clint | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I&#39;m aFull-Stack Web Developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -20,7 +20,7 @@ const resume = () => {
           <h2 className='text-center'>Clint Briley</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/sohrab-radmehr/'
               target='_blank'
               rel='noreferrer'
             >
