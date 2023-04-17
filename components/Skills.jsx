@@ -15,6 +15,9 @@ import NextJS from '../public/assets/skills/nextjs.png'
 import linux from '../public/assets/skills/linux.png'
 import mongo from '../public/assets/skills/mongo.png'
 import AWS from '../public/assets/skills/aws.png';
+import vercel from '../public/assets/skills/vercel.png';
+import cSharp from '../public/assets/skills/cSharp.png';
+import typescript from '../public/assets/skills/typescript.png';
 
 const Skills = () => {
   return (
@@ -58,20 +61,20 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+                <Image src={typescript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <h3>Typescript</h3>
               </div>
             </div>
           </div>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={NextJS} width='64px' height='64px' alt='/' />
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
+                <h3>React</h3>
               </div>
             </div>
           </div>
@@ -88,10 +91,50 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={AWS} width='64px' height='64px' alt='/' />
+                <Image src={cSharp} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>AWS</h3>
+                <h3>C#</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={net} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>.Net</h3>
+              </div>
+            </div>
+          </div>
+           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={vercel} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Vercel</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={NextJS} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={prisma} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Prisma</h3>
               </div>
             </div>
           </div>
@@ -128,26 +171,6 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={prisma} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Prisma</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={net} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>.Net</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
                 <Image src={mongo} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -158,24 +181,14 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={linux} width='64px' height='64px' alt='/' />
+                <Image src={AWS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Linux OS</h3>
+                <h3>AWS</h3>
               </div>
             </div>
           </div>
-          {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={mongo} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Mongo DB</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          {/*<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={mongo} width='64px' height='64px' alt='/' />

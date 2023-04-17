@@ -3,6 +3,8 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import AboutImg from "../public/assets/about2.jpg";
+import Image from "next/image";
 
 const Main = () => {
   return (
@@ -17,7 +19,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>A Full-Stack Web Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I am a skilled Full-Stack Web Developer with expertise in both front-end and back-end technologies, ready to develop dynamic and responsive websites that enhance user experience and meet business objectives
+          I am a skilled Full-Stack Web Developer with knowledge of both front-end and back-end technologies, ready to develop dynamic and responsive websites that enhance user experience and meet business objectives
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -49,6 +51,9 @@ const Main = () => {
               </div>
             </Link> */}
           </div>
+        </div>
+        <div className="sm:w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl hidden p-4 hover:scale-105 ease-in duration-300 md:flex items-center justify-center">
+          <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>
