@@ -61,7 +61,7 @@ const property = () => {
             platform.
           </p>
           <h4>Privacy Concerns:</h4>
-          <p >
+          <p>
             As a marketplace for exchanging skillsets, Rooty dealt with
             sensitive information, such as students' personal and academic data.
             Ensuring the privacy and security of this information was a
@@ -88,9 +88,11 @@ const property = () => {
             the conditions under which it is deleted. This helps to ensure that
             sensitive information is not retained for longer than necessary.
           </p>
-        <Link href="http://portfolio.renatadzotova.ca/Rooty/">
-          <p className="underline cursor-pointer">For additional information you can go to my friend&#39;s website</p>
-        </Link>
+          <Link href="http://portfolio.renatadzotova.ca/Rooty/">
+            <p className="underline cursor-pointer">
+              For additional information you can go to my friend&#39;s website
+            </p>
+          </Link>
 
           <a
             href="https://github.com/BCIT-Rooty/rootyBCIT"
@@ -137,7 +139,7 @@ const property = () => {
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
-      
+
       <div className="w-screen flex justify-center items-center">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=3ycRPYrkLTA"
