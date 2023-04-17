@@ -34,7 +34,7 @@ const property = () => {
             their interdisciplinary skillset to each other. The app is designed
             and developed by Full-Stack Web developers in collaboration with D3.
             Rooty provides BCIT students with a safe space to make extra income,
-            barter for each other’s services, gain experience, and network
+            barter for each other&#39;s services, gain experience, and network
             within BCIT community.
           </p>
           <h2 className="mt-16 mb-3">Problems and Solutions</h2>
@@ -55,15 +55,15 @@ const property = () => {
             checks. The process helps to ensure that only eligible students can
             use the platform and reduces the likelihood of cheating. Moreover, a
             reporting mechanism was also introduced to enable students to report
-            any suspected cheating activities. The platform's moderation team
+            any suspected cheating activities. The platform&#39;s moderation team
             regularly reviews these reports and takes appropriate action, such
-            as suspending the user's account, to maintain the integrity of the
+            as suspending the user&#39;s account, to maintain the integrity of the
             platform.
           </p>
           <h4>Privacy Concerns:</h4>
           <p>
             As a marketplace for exchanging skillsets, Rooty dealt with
-            sensitive information, such as students' personal and academic data.
+            sensitive information, such as students&#39; personal and academic data.
             Ensuring the privacy and security of this information was a
             significant challenge as any data breach or misuse of information
             could harm the reputation of the platform and its users.
